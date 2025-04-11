@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: #718387;
+    color: #FFFFFF;
+    padding: 16px;
+}
+
+.cabeçalho{
+    max-width: 1200px;
+    margin:  0 auto;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
