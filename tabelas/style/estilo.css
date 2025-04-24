@@ -1,0 +1,28 @@
+.tabela, .tabela th, .tabela td{
+    border: 1px solid #010101;
+}
+
+.tabela{
+    border-collapse: collapse;
+    box-shadow: 3px 3px 4px #818181;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tabela th, .tabela td {
+    padding: 8px;
+}
+
+.tabela th{
+    background-color: #6345b3;
+    color: #f1f1ff;
+    
+}
+
+.tabela tr:nth-child(odd){
+    background-color: #ab9ece;
+}
+
+.tabela tr:hover{
+    background-color: #4599b3;
+}
