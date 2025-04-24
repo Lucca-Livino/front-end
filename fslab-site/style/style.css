@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #3c3c3b;
+}
+
+.cabecalho_conteudo{
+    padding: 25px;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.cabecalho_link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu{
+    width: 1920px;
+    height: 512px;
+    background-image: linear-gradient(rgba(60, 60, 59, 0.6)),
+    url("/img/Mulher\ usando\ computador.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.menu_texto > h1{
+    padding: 16px;
+    background-color: #FFFFFF;
+    color: #3c3c3b;
+    border-radius: 10%;
+}
+
+.menu_texto > p{
+    padding: 8px;
+}
+
+.titulo{
+    padding: 30px;
+}
+
+.imagem {
+    display: block;
+    margin: 0 auto;
+}
