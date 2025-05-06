@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+.cabecalho{
+    background-color: #7F8FC7;
+}
+
+.cabecalho_conteudo{
+    padding: 25px;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.cabecalho_link{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.menu{
+    height: 512px;
+    background-image: linear-gradient(rgba(127, 143, 199, 0.6)),
+    url("/img/Cerejeiras.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.logo{
+    margin: auto;
+}
+
+.texto{
+    padding-bottom: 85px;
+    padding-left: 28px;
+    width: 50%;
+    text-align: left;
+}
+
+.texto > h2{
+    padding-top: 45px;
+    padding-bottom: 85px;
+}
+
+.texto > p {
+    margin-bottom: 25px;
+}
+
+.titulo{
+    padding-left: 20px;
+}
+
+.galeria{
+    padding: 20px;
+    padding-top: 10px;
+}
