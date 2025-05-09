@@ -1,5 +1,5 @@
 .formulario {
-    border: 1px solid #010101;
+    border-style: 1px #010101;
     border-radius: 4px;
     box-shadow: 3px 3px 4px #818181;
     padding: 40px;
@@ -8,20 +8,18 @@
     background-color: #f8f8ff;
 }
 
-.formulario .bloco {
+.bloco {
     margin-bottom: 15px;
 }
 
-.formulario .label {
+.label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
     color: #6345b3;
 }
 
-.formulario .campo,
-.formulario .area,
-.formulario .seletor {
+.campo,.area,.seletor {
     width: 100%;
     padding: 8px;
     border: 1px solid #010101;
@@ -30,7 +28,7 @@
 }
 
 
-.formulario .botao {
+.botao {
     background-color: #6345b3;
     color: #f1f1ff;
     border: none;
@@ -42,4 +40,13 @@
 
 .formulario .botao:hover {
     background-color: #4b0069;
+}
+
+h1{
+    color: #4b0069;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
 }

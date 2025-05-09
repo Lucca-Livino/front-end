@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 8px;
+    
+}
+
+.card{
+    padding: 8px;
+    box-shadow: 2px 2px  3px rgb(190, 190, 190);
+    border-radius: 10px;
+    max-width: 390px;
+}
+
+h2{
+    text-align: center;
+    color: #062400;
+    font-family: "Oswald", sans-serif;
+}
+.card-link{
+    background-color: #26641a;
+    color: #FFFFFFFF;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+}
+
+.card-texto{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+}
