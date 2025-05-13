@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: linear-gradient(90deg, rgba(182, 213, 255, 0.4) 0%, rgba(182, 213, 255, 0.4) 100%),
+    url(/assets/img/código.jpg);
+    height: 370px;
+}
+
+.pesquisa {
+    background: no-repeat url(/assets/img/Frame.png);
+    background-position: right ;
+    height: 50px;
+    width: 688px;
+    margin: 20px;
+}
+
+.card-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.card-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card{
+    padding: 8px;
+    border: solid #cecece 1px;
+    border-radius: 8px;
+    max-width: 332px;
+}
+
+.titulo{
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.card-texto{
+    padding-top: 8px;
+    padding-left: 16px;
+}
